@@ -1,0 +1,1457 @@
+<!-- @format -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240729112316">
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<button type="button" class="filters__close">
+			<img src="img/close.svg" alt="" />
+		</button>
+		<!-- @format -->
+
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top">
+					<a href="#" class="header__logo">
+						<img src="img/header/logo.svg" alt="Сириус" />
+					</a>
+					<div class="header__city city">
+						<p class="city__text">Выберите ваш город:</p>
+						<div class="city__current">
+							<div class="city__img">
+								<img src="img/header/punkt.svg" alt="Тек. пункт" />
+								<a href="#" class="city__link">Санкт-Петербург</a>
+							</div>
+						</div>
+					</div>
+					<div class="header__search search">
+						<form action="#" class="search__wrapper">
+							<button class="search__button" type="button">
+								<img src="img/header/search.svg" alt="Поиск" />
+							</button>
+							<input id="search" autocomplete="off" type="text" placeholder="Поиск" class="search__input input" />
+						</form>
+					</div>
+					<div class="header__mode mode">
+						<p class="mode__text">
+							Режим работы <br />
+							Пн-Пт с 8:00 — 18:00
+						</p>
+					</div>
+					<div class="header__social social">
+						<div class="social__item">
+							<a href="#" class="social__link">
+								<img src="img/header/facebook.svg" alt="facebook" />
+							</a>
+							<a href="#" class="social__link">
+								<img src="img/header/insta.svg" alt="instagramm" />
+							</a>
+							<a href="#" class="social__link">
+								<img src="img/header/vk.svg" alt="vk" />
+							</a>
+						</div>
+					</div>
+					<div class="header__contacts contacts">
+						<div class="contacts__item">
+							<p class="contacts__text">г. Москва</p>
+							<a href="tel:+74957772345" class="contacts__link">+7(495)777-2345</a>
+							<button type="button" class="contacts__button">Заказать звонок</button>
+						</div>
+						<div class="contacts__item">
+							<p class="contacts__text">г. Ногинск</p>
+							<a href="tel:+74956004400" class="contacts__link">+7 (495) 600-4400</a>
+							<button type="button" class="contacts__button">Заказать звонок</button>
+						</div>
+					</div>
+				</div>
+				<div class="header__bottom">
+					<a href="#" data-da=".header__top, 767.99,0" class="header__catalog catalog">
+						<button type="button" class="catalog__img"><img src="img/header/menu.svg" alt="Меню" /></button>
+						<span class="catalog__text">Каталог</span>
+					</a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">Новости</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">О компании</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Скидки</a></li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Доставка и оплата</a>
+								</li>
+								<li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Дилеры</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Магазины</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+								<li class="menu__item">
+									<a href="#" class="menu__link menu__link_other">Честный знак</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div data-da=".header__top, 767.99" class="header__actions actions">
+						<a href="#" class="actions__item actions__item_link">
+							<img src="img/header/favorite.svg" alt="Избранное" />
+							<span class="actions__quantity">0</span>
+						</a>
+						<a href="#" class="actions__item actions__item_link">
+							<img src="img/header/cart.svg" alt="Корзина" />
+							<span id="quantity" class="actions__quantity">0</span>
+						</a>
+						<a href="#" class="actions__item">
+							<img src="img/header/user.svg" alt="Корзина" />
+							<p class="actions__text">Войти</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="catalog">
+			<div class="catalog__container">
+				<nav class="catalog__breadcrumbs breadcrumbs">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item">
+							<a href="#" class="breadcrumbs__link">Каталог товаров ></a>
+						</li>
+						<li class="breadcrumbs__item">
+							<a href="#" class="breadcrumbs__link">Спецодежда ></a>
+						</li>
+						<li class="breadcrumbs__item">
+							<span class="breadcrumbs__current">Спецодежда зимняя</span>
+						</li>
+					</ul>
+				</nav>
+				<a href="#" class="catalog__back">
+					<img src="img/arrow-filter.svg" alt="" />
+					<span>Назад</span>
+				</a>
+				<h1 class="catalog__title">Спецодежда Зимняя</h1>
+				<section data-showmore data-showmore-media="768,max" class="block">
+					<div data-showmore-content="75" class="block__content">
+						<div class="catalog__tags tags">
+							<button type="button" class="tags__item">
+								Спецодежда с заключением Минпромторга
+							</button>
+							<button type="button" class="tags__item">Костюмы женские</button>
+							<button type="button" class="tags__item">Костюмы мужские</button>
+							<button type="button" class="tags__item">Костюмы сварщика</button>
+							<button type="button" class="tags__item">Жилеты женские</button>
+							<button type="button" class="tags__item">Жилеты мужские</button>
+							<button type="button" class="tags__item">Жилеты зимние</button>
+							<button type="button" class="tags__item">Брюки</button>
+							<button type="button" class="tags__item">Куртки женские</button>
+							<button type="button" class="tags__item">Куртки мужские</button>
+							<button type="button" class="tags__item">Полукомбинезоны зимние</button>
+							<!-- <button type="button" class="tags__item tags__item_more">Показать еще</button> -->
+						</div>
+					</div>
+					<button hidden data-showmore-button type="button" class="block__more">
+						<span>Показать еще</span><span>Спрятать</span>
+					</button>
+				</section>
+
+				<section class="catalog__master master">
+					<div class="master__top">
+						<div class="master__sort sort">
+							<div class="sort__top">
+								<span class="sort__text">По возрастанию цены</span>
+								<img src="img/arrow-sort.svg" alt="" />
+								<ul class="sort__menu">
+									<li class="sort__item">По умолчанию</li>
+									<li class="sort__item">По популярности</li>
+									<li class="sort__item">По возрастанию цены</li>
+									<li class="sort__item">По убыванию цены</li>
+									<li class="sort__item">По новинкам</li>
+									<li class="sort__item">По скидке</li>
+									<li class="sort__item">По алфавиту</li>
+								</ul>
+							</div>
+						</div>
+						<button class="sort__button" type="button">
+							<img src="img/filter-m-button.svg" alt="открыть фильтры" />
+							Фильтр
+						</button>
+					</div>
+					<div class="master__body">
+						<aside class="master__filters filters">
+							<h2 class="filters__title">
+								<img src="img/arrow-filter.svg" alt="" />
+								<span>Фильтр</span>
+							</h2>
+							<form action="#" class="filters__form">
+								<div data-spollers class="filters__spollers">
+									<div class="filters__filter filters__filter_cost">
+										<details data-open class="filters__item filter">
+											<summary class="filter__title-wrapper">
+												<span class="filter__title">Цена, руб</span>
+												<span class="filter__arrow">
+													<img src="img/arrow-filter.svg" alt="" />
+												</span>
+											</summary>
+											<div class="filter__body range">
+												<div class="filter__actions">
+													<div class="filter__val">
+														<div class="filter__post">
+															<span>от</span>
+															<span class="filter__field filter__val-low"> 86</span>
+														</div>
+														<div class="filter__post">
+															<span>до</span>
+															<span class="filter__field filter__val-max">100 000</span>
+														</div>
+													</div>
+												</div>
+												<div class="range__slider" id="range"></div>
+											</div>
+										</details>
+									</div>
+
+									<div class="filters__filter">
+										<details data-open class="filters__item filters__item_manufacturer filter">
+											<summary class="filter__title-wrapper _spoller-active">
+												<span class="filter__title">Вид изделия</span>
+												<span class="filter__arrow">
+													<img src="img/arrow-filter.svg" alt="" />
+												</span>
+											</summary>
+											<div class="filter__body">
+												<!-- <div data-showmore="items" class="filter__showmore"> -->
+												<ul class="filter__list">
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_1_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Брюки" name="form[]" />
+															<label for="f_1_1" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Брюки</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item filter__list-item_disabled">
+														<div class="checkbox">
+															<input disabled id="f_1_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Жилет" name="form[]" />
+															<label for="f_1_2" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Жилет</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_1_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Костюм" name="form[]" />
+															<label for="f_1_3" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Костюм</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_1_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Куртка" name="form[]" />
+															<label for="f_1_4" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Куртка</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_1_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Полукомбинезон" name="form[]" />
+															<label for="f_1_5" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Полукомбинезон</span></label>
+														</div>
+													</li>
+												</ul>
+												<!-- <button hidden data-showmore-button type="button" class="filter__more"><span>отобразить всё</span><span>Спрятать</span></button> -->
+												<!-- </div> -->
+											</div>
+										</details>
+									</div>
+
+									<div class="filters__filter">
+										<details data-open class="filters__item filters__item_manufacturer filter">
+											<summary class="filter__title-wrapper _spoller-active">
+												<span class="filter__title">Сезон</span>
+												<span class="filter__arrow">
+													<img src="img/arrow-filter.svg" alt="" />
+												</span>
+											</summary>
+											<div class="filter__body">
+												<ul class="filter__list">
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Зима" name="form[]" />
+															<label for="f_2" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Зима</span></label>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</details>
+									</div>
+
+									<div class="filters__filter">
+										<details data-open class="filters__item filters__item_manufacturer filter">
+											<summary class="filter__title-wrapper _spoller-active">
+												<span class="filter__title">Торговая марка / Бренд</span>
+												<span class="filter__arrow">
+													<img src="img/arrow-filter.svg" alt="" />
+												</span>
+											</summary>
+											<div class="filter__body">
+												<ul class="filter__list">
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="СИРИУС" name="form[]" />
+															<label for="f_3" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">СИРИУС</span></label>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</details>
+									</div>
+
+									<div class="filters__filter">
+										<details data-open class="filters__item filters__item_manufacturer filter">
+											<summary class="filter__title-wrapper _spoller-active">
+												<span class="filter__title">Пол</span>
+												<span class="filter__arrow">
+													<img src="img/arrow-filter.svg" alt="" />
+												</span>
+											</summary>
+											<div class="filter__body">
+												<ul class="filter__list">
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_4_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="СИРИУС" name="form[]" />
+															<label for="f_4_1" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Женский </span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_4_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="СИРИУС" name="form[]" />
+															<label for="f_4_2" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Мужской</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_4_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="СИРИУС" name="form[]" />
+															<label for="f_4_3" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Универсальный</span></label>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</details>
+									</div>
+
+									<div class="filters__filter">
+										<details data-open class="filters__item filters__item_manufacturer filter">
+											<summary class="filter__title-wrapper _spoller-active">
+												<span class="filter__title">Состав</span>
+												<span class="filter__arrow">
+													<img src="img/arrow-filter.svg" alt="" />
+												</span>
+											</summary>
+											<div class="filter__body">
+												<ul class="filter__list">
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_5_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Брюки" name="form[]" />
+															<label for="f_5_1" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Брюки</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_5_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Жилет" name="form[]" />
+															<label for="f_5_2" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Жилет</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_5_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Костюм" name="form[]" />
+															<label for="f_5_3" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Костюм</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_5_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Куртка" name="form[]" />
+															<label for="f_5_4" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Куртка</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_5_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Полукомбинезон" name="form[]" />
+															<label for="f_5_5" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Полукомбинезон</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_5_6" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Полукомбинезон" name="form[]" />
+															<label for="f_5_6" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Полукомбинезон</span></label>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</details>
+									</div>
+
+									<div class="filters__filter">
+										<details data-open class="filters__item filters__item_manufacturer filter">
+											<summary class="filter__title-wrapper _spoller-active">
+												<span class="filter__title">Ткань/Материал верха</span>
+												<span class="filter__arrow">
+													<img src="img/arrow-filter.svg" alt="" />
+												</span>
+											</summary>
+											<div class="filter__body">
+												<ul class="filter__list">
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_6_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Брюки" name="form[]" />
+															<label for="f_6_1" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Брюки</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_6_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Жилет" name="form[]" />
+															<label for="f_6_2" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Жилет</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_6_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Костюм" name="form[]" />
+															<label for="f_6_3" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Костюм</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_6_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Куртка" name="form[]" />
+															<label for="f_6_4" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Куртка</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_6_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Полукомбинезон" name="form[]" />
+															<label for="f_6_5" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Полукомбинезон</span></label>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</details>
+									</div>
+
+									<div class="filters__filter">
+										<details data-open class="filters__item filters__item_manufacturer filter">
+											<summary class="filter__title-wrapper _spoller-active">
+												<span class="filter__title">Утеплитель</span>
+												<span class="filter__arrow">
+													<img src="img/arrow-filter.svg" alt="" />
+												</span>
+											</summary>
+											<div class="filter__body">
+												<ul class="filter__list">
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_7_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Брюки" name="form[]" />
+															<label for="f_7_1" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Брюки</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_7_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Жилет" name="form[]" />
+															<label for="f_7_2" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Жилет</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_7_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Костюм" name="form[]" />
+															<label for="f_7_3" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Костюм</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_7_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Куртка" name="form[]" />
+															<label for="f_7_4" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Куртка</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_7_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Полукомбинезон" name="form[]" />
+															<label for="f_7_5" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Полукомбинезон</span></label>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</details>
+									</div>
+
+									<div class="filters__filter">
+										<details data-open class="filters__item filters__item_manufacturer filter">
+											<summary class="filter__title-wrapper _spoller-active">
+												<span class="filter__title">Назначение</span>
+												<span class="filter__arrow">
+													<img src="img/arrow-filter.svg" alt="" />
+												</span>
+											</summary>
+											<div class="filter__body">
+												<ul class="filter__list">
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_8_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Брюки" name="form[]" />
+															<label for="f_8_1" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Брюки</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_8_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Жилет" name="form[]" />
+															<label for="f_8_2" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Жилет</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_8_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Костюм" name="form[]" />
+															<label for="f_8_3" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Костюм</span></label>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</details>
+									</div>
+
+									<div class="filters__filter">
+										<details data-open class="filters__item filters__item_manufacturer filter">
+											<summary class="filter__title-wrapper _spoller-active">
+												<span class="filter__title">Цвет</span>
+												<span class="filter__arrow">
+													<img src="img/arrow-filter.svg" alt="" />
+												</span>
+											</summary>
+											<div class="filter__body">
+												<ul class="filter__list">
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_9_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Бирюзовый" name="form[]" />
+															<label for="f_9_1" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Бирюзовый</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_9_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Васильковый" name="form[]" />
+															<label for="f_9_2" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Васильковый</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_9_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Красный" name="form[]" />
+															<label for="f_9_3" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Красный</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_9_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Лимнонный" name="form[]" />
+															<label for="f_9_4" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Лимнонный</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_9_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Олива" name="form[]" />
+															<label for="f_9_5" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Олива</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_9_6" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Оранжевый" name="form[]" />
+															<label for="f_9_6" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Оранжевый</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_9_7" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Серый" name="form[]" />
+															<label for="f_9_7" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Серый</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_9_8" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Синий" name="form[]" />
+															<label for="f_9_8" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Синий</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_9_9" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Черный, красный" name="form[]" />
+															<label for="f_9_9" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Черный, красный</span></label>
+														</div>
+													</li>
+													<li class="filter__list-item">
+														<div class="checkbox">
+															<input id="f_9_10" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Черный" name="form[]" />
+															<label for="f_9_10" class="checkbox__label">
+																<span class="checkbox__body"></span>
+																<span class="checkbox__text">Черный</span></label>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</details>
+									</div>
+								</div>
+								<div class="filters__controls">
+									<button type="button" class="filters__view button">
+										Показать (<span>123</span>)
+									</button>
+									<button type="button" class="filters__reset">Сбросить</button>
+								</div>
+							</form>
+						</aside>
+
+						<div class="master__products">
+							<div class="master__products-wrapper">
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/01.webp" alt="01" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											1Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ
+											Мультикам
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/02.webp" alt="02" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">1Костюм "СИРИУС-Горка" куртк</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/03.webp" alt="03" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos id
+											aliquid perferendis obcaecati laudantium .
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/04.webp" alt="04" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											Lorem ipsum dolor rum a dolores dolore? Delectus?
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/01.webp" alt="01" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											1Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ
+											Мультикам
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/02.webp" alt="02" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">1Костюм "СИРИУС-Горка" куртк</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/03.webp" alt="03" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos id
+											aliquid perferendis obcaecati laudantium .
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/04.webp" alt="04" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											Lorem ipsum dolor rum a dolores dolore? Delectus?
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/01.webp" alt="01" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											1Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ
+											Мультикам
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/02.webp" alt="02" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">1Костюм "СИРИУС-Горка" куртк</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/03.webp" alt="03" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos id
+											aliquid perferendis obcaecati laudantium .
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/04.webp" alt="04" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											Lorem ipsum dolor rum a dolores dolore? Delectus?
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/01.webp" alt="01" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											1Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ
+											Мультикам
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/02.webp" alt="02" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">1Костюм "СИРИУС-Горка" куртк</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/03.webp" alt="03" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos id
+											aliquid perferendis obcaecati laudantium .
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/04.webp" alt="04" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											Lorem ipsum dolor rum a dolores dolore? Delectus?
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/01.webp" alt="01" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											1Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ
+											Мультикам
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/02.webp" alt="02" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">1Костюм "СИРИУС-Горка" куртк</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/03.webp" alt="03" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos id
+											aliquid perferendis obcaecati laudantium .
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+								<article class="product">
+									<a href="#" target="_blank" class="product__img">
+										<img class="ibg" src="img/04.webp" alt="04" />
+									</a>
+									<div class="product__content">
+										<span class="product__number">Арт 1232425</span>
+										<h3 class="product__title">
+											Lorem ipsum dolor rum a dolores dolore? Delectus?
+										</h3>
+									</div>
+									<div class="product__bottom">
+										<div class="product__costs costs">
+											<div class="costs__wholesale">Опт 3144 ₽</div>
+											<div class="costs__retail">Розница 4235 ₽</div>
+										</div>
+										<div class="product__actions">
+											<button data-popup="#add" class="product__action">
+												В корзину
+											</button>
+											<button class="product__action product__action_fav">
+												<svg class="product__favorite" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M17.3667 3.84172C16.941 3.41589 16.4357 3.0781 15.8795 2.84763C15.3232 2.61716 14.7271 2.49854 14.125 2.49854C13.5229 2.49854 12.9268 2.61716 12.3705 2.84763C11.8143 3.0781 11.309 3.41589 10.8833 3.84172L10 4.72506L9.11666 3.84172C8.25692 2.98198 7.09086 2.49898 5.875 2.49898C4.65914 2.49898 3.49307 2.98198 2.63333 3.84172C1.77359 4.70147 1.29059 5.86753 1.29059 7.08339C1.29059 8.29925 1.77359 9.46531 2.63333 10.3251L3.51666 11.2084L10 17.6917L16.4833 11.2084L17.3667 10.3251C17.7925 9.89943 18.1303 9.39407 18.3608 8.83785C18.5912 8.28164 18.7099 7.68546 18.7099 7.08339C18.7099 6.48132 18.5912 5.88514 18.3608 5.32893C18.1303 4.77271 17.7925 4.26735 17.3667 3.84172V3.84172Z" stroke="#A0A4A8" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</button>
+										</div>
+									</div>
+								</article>
+							</div>
+							<button type="button" class="products__button-more">Показать еще</button>
+							<div class="products__pagination pagination">
+								<div class="pagination__item pagination__item_arrow">
+									<img src="img/arrow-bottom-products.svg" alt="Назад" />
+								</div>
+								<div class="pagination__item pagination__item_current">1</div>
+								<div class="pagination__item">2</div>
+								<div class="pagination__item">3</div>
+								<div class="pagination__item pagination__item_disabled">4</div>
+								<div class="pagination__item pagination__item_all">Все</div>
+								<div class="pagination__item pagination__item_arrow">
+									<img src="img/arrow-bottom-products.svg" alt="Вперёд" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+
+
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__contacts contacts-footer">
+						<a href="tel:+74957772345" class="contacts__link">+7(495)777-2345</a>
+						<button type="button" class="contacts__button">Заказать звонок</button>
+						<a href="mailto:info@planeta-sirius.ru" class="contacts-footer__mail-link">info@planeta-sirius.ru</a>
+						<div class="footer__social social">
+							<div class="social__item">
+								<a href="#" class="social__link">
+									<img src="img/header/facebook.svg" alt="facebook" />
+								</a>
+								<a href="#" class="social__link">
+									<img src="img/header/insta.svg" alt="instagramm" />
+								</a>
+								<a href="#" class="social__link">
+									<img src="img/header/vk.svg" alt="vk" />
+								</a>
+							</div>
+						</div>
+						<a href="#" class="contacts-footer__link-copy">
+							<img src="img/footer/exel 1.svg" alt="Таблица" />
+							<span>Скачать прайс-лист</span>
+						</a>
+					</div>
+					<ul class="footer__menu menu-footer footer__menu_col1">
+						<li class="menu-footer__item">
+							<a href="#" class="menu-footer__link">каталог</a>
+						</li>
+						<li class="menu-footer__item">
+							<a href="#" class="menu-footer__link">СПЕЦОДЕЖДА</a>
+						</li>
+						<li class="menu-footer__item">
+							<a href="#" class="menu-footer__link">Средства защиты рук</a>
+						</li>
+						<li class="menu-footer__item">
+							<a href="#" class="menu-footer__link">Активный отдых</a>
+						</li>
+						<li class="menu-footer__item">
+							<a href="#" class="menu-footer__link">Хозтовары и постельные принадлежности</a>
+						</li>
+						<li data-da=".footer__menu_col2, 767.99" class="menu-footer__item">
+							<a href="#" class="menu-footer__link menu-footer__link_other">Ликвидация</a>
+						</li>
+					</ul>
+					<ul class="footer__menu menu-footer footer__menu_col2">
+						<li class="menu-footer__item"><a href="#" class="menu-footer__link">обувь</a></li>
+						<li class="menu-footer__item">
+							<a href="#" class="menu-footer__link">Средства индивидуальной защиты</a>
+						</li>
+						<li class="menu-footer__item">
+							<a href="#" class="menu-footer__link">жилеты на все случаи жизни</a>
+						</li>
+						<li class="menu-footer__item">
+							<a href="#" class="menu-footer__link">линия Plus</a>
+						</li>
+					</ul>
+					<div class="footer__form form-footer">
+						<p class="form-footer__text">
+							Подпишитесь на новости и акции и будьте в курсе всего!
+						</p>
+						<form action="#" class="form-footer__form">
+							<div class="form-footer__item">
+								<div class="form-footer__input-wrapper">
+									<input id="email" required autocomplete="off" type="email" placeholder="Введите свой e-mail" class="form-footer__input input" />
+									<div class="form-footer__img">
+										<img src="img/footer/send.svg" alt="отправить" />
+									</div>
+								</div>
+							</div>
+
+							<div class="form-footer__item form-footer__item_bottom">
+								<input required type="checkbox" name="ok" id="ok" />
+								<p class="form-footer__text">
+									Я даю согласие на обработку персональных данных и соглашаюсь с правилами
+									обработки персональных данных.
+								</p>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<p>2021 © PLANETA-SIRIUS.RU</p>
+					<p class="bottom-footer__light">
+						Вся приведенная на сайте информация, носят исключительно ознакомительный характер
+						и не является публичной офертой.
+					</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<div id="add" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<h3 class="popup__title">Выбор опций</h3>
+					<button data-close type="button" class="popup__close">
+						<img src="img/close-options.svg" alt="Закрыть" />
+					</button>
+				</div>
+				<div class="popup__th">
+					<p>Размерный ряд</p>
+					<p>Количество</p>
+				</div>
+				<div class="popup__body">
+					<div class="popup__item">
+						<p class="popup__text">Размер 104-108, Рост 170-176 (Арт. 43585)</p>
+						<div data-quantity class="popup__quantity quantity">
+							<div class="quantity__input">
+								<input data-quantity-min="0" data-quantity-value type="text" name="1" value="0" />
+							</div>
+							<button data-quantity-plus type="button" class="quantity__button quantity__button_plus">
+								<img src="img/+.svg" alt="+" />
+							</button>
+							<button data-quantity-minus type="button" class="quantity__button quantity__button_minus">
+								<img src="img/-.svg" alt="-" />
+							</button>
+						</div>
+					</div>
+					<div class="popup__item">
+						<p class="popup__text">Размер 104-108, Рост 170-176 (Арт. 43585)</p>
+						<div data-quantity class="popup__quantity quantity">
+							<div class="quantity__input">
+								<input data-quantity-min="0" data-quantity-value type="text" name="2" value="0" />
+							</div>
+							<button data-quantity-plus type="button" class="quantity__button quantity__button_plus">
+								<img src="img/+.svg" alt="+" />
+							</button>
+							<button data-quantity-minus type="button" class="quantity__button quantity__button_minus">
+								<img src="img/-.svg" alt="-" />
+							</button>
+						</div>
+					</div>
+					<div class="popup__item">
+						<p class="popup__text">Размер 104-108, Рост 170-176 (Арт. 43585)</p>
+						<div data-quantity class="popup__quantity quantity">
+							<div class="quantity__input">
+								<input data-quantity-min="0" data-quantity-value type="text" name="3" value="0" />
+							</div>
+							<button data-quantity-plus type="button" class="quantity__button quantity__button_plus">
+								<img src="img/+.svg" alt="+" />
+							</button>
+							<button data-quantity-minus type="button" class="quantity__button quantity__button_minus">
+								<img src="img/-.svg" alt="-" />
+							</button>
+						</div>
+					</div>
+					<div class="popup__item">
+						<p class="popup__text">Размер 104-108, Рост 170-176 (Арт. 43585)</p>
+						<div data-quantity class="popup__quantity quantity">
+							<div class="quantity__input">
+								<input data-quantity-min="0" data-quantity-value type="text" name="4" value="0" />
+							</div>
+							<button data-quantity-plus type="button" class="quantity__button quantity__button_plus">
+								<img src="img/+.svg" alt="+" />
+							</button>
+							<button data-quantity-minus type="button" class="quantity__button quantity__button_minus">
+								<img src="img/-.svg" alt="-" />
+							</button>
+						</div>
+					</div>
+					<div class="popup__item">
+						<p class="popup__text">Размер 104-108, Рост 170-176 (Арт. 43585)</p>
+						<div data-quantity class="popup__quantity quantity">
+							<div class="quantity__input">
+								<input data-quantity-min="0" data-quantity-value type="text" name="5" value="0" />
+							</div>
+							<button data-quantity-plus type="button" class="quantity__button quantity__button_plus">
+								<img src="img/+.svg" alt="+" />
+							</button>
+							<button data-quantity-minus type="button" class="quantity__button quantity__button_minus">
+								<img src="img/-.svg" alt="-" />
+							</button>
+						</div>
+					</div>
+					<div class="popup__item">
+						<p class="popup__text">Размер 104-108, Рост 170-176 (Арт. 43585)</p>
+						<div data-quantity class="popup__quantity quantity">
+							<div class="quantity__input">
+								<input data-quantity-min="0" data-quantity-value type="text" name="6" value="0" />
+							</div>
+							<button data-quantity-plus type="button" class="quantity__button quantity__button_plus">
+								<img src="img/+.svg" alt="+" />
+							</button>
+							<button data-quantity-minus type="button" class="quantity__button quantity__button_minus">
+								<img src="img/-.svg" alt="-" />
+							</button>
+						</div>
+					</div>
+					<div class="popup__item">
+						<p class="popup__text">Размер 104-108, Рост 170-176 (Арт. 43585)</p>
+						<div data-quantity class="popup__quantity quantity">
+							<div class="quantity__input">
+								<input data-quantity-min="0" data-quantity-value type="text" name="7" value="0" />
+							</div>
+							<button data-quantity-plus type="button" class="quantity__button quantity__button_plus">
+								<img src="img/+.svg" alt="+" />
+							</button>
+							<button data-quantity-minus type="button" class="quantity__button quantity__button_minus">
+								<img src="img/-.svg" alt="-" />
+							</button>
+						</div>
+					</div>
+				</div>
+				<button id="cart-add" type="button" class="popup__button button">Добавить в корзину</button>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20240729112316"></script>
+</body>
+
+</html>
